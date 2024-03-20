@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.pcss';
 	import { page } from '$app/stores';
 	import nprogress from 'nprogress';
 	import 'nprogress/nprogress.css';
@@ -43,7 +44,7 @@
 <div id="main">
 	{#if user}
 		<div id="sidebar">
-			<Navigation desktop={true} />
+			<Navigation desktop={true}></Navigation>
 		</div>
 	{/if}
 	<div id="content">
@@ -53,8 +54,8 @@
 					class="topbar-bg"
 					style:background-color="var(--header-color)"
 					style:opacity={`${headerOpacity}`}
-				/>
-				<Header />
+				></div>
+				<Header></Header>
 			</div>
 		{/if}
 		<main id="main-content" class:logged-in={user}>
