@@ -22,6 +22,7 @@
 		"@types/eslint": "8.56.0",
 		"@types/node": "^20.11.20",
 		"@types/nprogress": "^0.2.3",
+		"@types/sharp": "^0.32.0",
 		"@types/spotify-api": "^0.0.25",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
@@ -50,6 +51,7 @@
 		"modern-normalize": "^2.0.0",
 		"nprogress": "^0.2.0",
 		"pkce-gen": "^1.1.0",
+		"sharp": "^0.33.2",
 		"tippy.js": "^6.3.7"
 	}
 }

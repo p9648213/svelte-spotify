@@ -87,7 +87,7 @@ select,
 input,
 button,
 a {
-	&:focus {
+	&:focus-visible {
 		outline: 2px solid var(--accent-color);
 		outline-offset: 2px;
 	}
